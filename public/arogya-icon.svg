@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="iconLeafGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconLeafGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#66BB6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconLeafGrad3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#81C784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="50" cy="50" r="48" fill="#FFFFFF" stroke="#0B6E4F" stroke-width="1"/>
+  
+  <!-- Logo Mark -->
+  <g transform="translate(35, 28)">
+    <!-- Heart/shield shape background -->
+    <path d="M 15 5 C 15 5 5 12 5 22 C 5 30 15 40 15 40 C 15 40 25 30 25 22 C 25 12 15 5 15 5 Z" fill="#0B6E4F" opacity="0.08"/>
+    
+    <!-- Left leaf -->
+    <ellipse cx="8" cy="18" rx="4" ry="8" fill="url(#iconLeafGrad1)" transform="rotate(-30 8 18)"/>
+    
+    <!-- Right leaf -->
+    <ellipse cx="22" cy="18" rx="4" ry="8" fill="url(#iconLeafGrad2)" transform="rotate(30 22 18)"/>
+    
+    <!-- Center leaf (top) -->
+    <ellipse cx="15" cy="10" rx="3.5" ry="7" fill="url(#iconLeafGrad3)" transform="rotate(0 15 10)"/>
+  </g>
+</svg>
